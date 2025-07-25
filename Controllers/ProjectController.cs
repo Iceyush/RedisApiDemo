@@ -14,6 +14,7 @@ public class ProjectController : ControllerBase
         _redis = redis;
     }
 
+
     [HttpGet]
     public async Task<IActionResult> Get()
     {
